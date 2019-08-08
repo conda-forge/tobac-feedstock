@@ -6,8 +6,10 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/climate-processes/{{name}}/archive/v{{version}}.tar.gz
-  sha256: 74a47a181e9a4b4df7f993165ac31aeb870efcdd8c3ffe6b1da4c963f80eb997
+  url: https://github.com/mheikenfeld/tobac/archive/fixes_matplotlib.zip
+  sha256: b4dd55f511392fa755b4c927c847ed0750a8b4c255450478d771a1777ad363aa
+#  url: https://github.com/climate-processes/{{name}}/archive/v{{version}}.tar.gz
+#  sha256: 74a47a181e9a4b4df7f993165ac31aeb870efcdd8c3ffe6b1da4c963f80eb997
 
 build:
   #noarch: python
