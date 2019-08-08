@@ -31,13 +31,10 @@ requirements:
     - cf_units
     - cartopy
     - trackpy
-    - tk
-
 test:
   imports:
     - tobac
     - tobac.testing
-    - matplotlib.pyplot
   source_files:
     - tobac/tests/test_import.py
     - tobac/tests/test_sample_data.py
