@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/climate-processes/{{name}}/archive/v{{version}}.tar.gz
-  sha256: f443c86d3d41ac55fdac71e9f2080ba4cdb1583ee632d768c7484d513399c40f
+  sha256: fd20b09f3973077670cd24a391a64975c189e8d122304a7edc5ab10bb0ac9603
 
 build:
   noarch: python
