@@ -29,7 +29,7 @@ requirements:
     - matplotlib-base 
     - iris 
     - xarray 
-    - cf_units
+    - cf-units
     - cartopy
     - trackpy
 
