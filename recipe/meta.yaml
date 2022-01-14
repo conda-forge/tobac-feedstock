@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/climate-processes/{{name}}/archive/v{{version}}.tar.gz
+  url: https://github.com/climate-processes/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: fd20b09f3973077670cd24a391a64975c189e8d122304a7edc5ab10bb0ac9603
 
 build:
-  noarch: python>=2.7
+  noarch: python
   number: 2
   script: "{{ PYTHON }} -m pip install . -vv"
 
