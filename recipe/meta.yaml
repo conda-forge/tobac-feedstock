@@ -1,26 +1,26 @@
 {% set name = "tobac" %}
-{% set version = "1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/climate-processes/{{name}}/archive/v{{version}}.tar.gz
-  sha256: fd20b09f3973077670cd24a391a64975c189e8d122304a7edc5ab10bb0ac9603
+  url: https://github.com/climate-processes/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 65fe59f74ab03ca637555b72c9ad1cae0fb06ff78fb74de5c263fa5f2cb41aaf
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.6
     - numpy
     - scipy
     - scikit-image
@@ -29,7 +29,7 @@ requirements:
     - matplotlib-base 
     - iris 
     - xarray 
-    - cf_units
+    - cf-units
     - cartopy
     - trackpy
 
