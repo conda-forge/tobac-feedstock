@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/climate-processes/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 65fe59f74ab03ca637555b72c9ad1cae0fb06ff78fb74de5c263fa5f2cb41aaf
+  sha256: 45ad5ffd0a1925db94a41eb14bac80b31ac00f1e0674f70b7d1ab6844ddd0a38
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -26,9 +26,9 @@ requirements:
     - scikit-image
     - pandas
     - pytables
-    - matplotlib-base 
-    - iris 
-    - xarray 
+    - matplotlib-base
+    - iris
+    - xarray
     - cf-units
     - cartopy
     - trackpy
@@ -46,12 +46,12 @@ test:
     - pytest tobac/tests
 about:
   home: http://github.com/simplejson/simplejson
-  license:  BSD-3-Clause 
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Tracking and Object-Based Analysis of Clouds'
+  summary: Tracking and Object-Based Analysis of Clouds
 
-  description:  tobac is a flexible frameork for cloud tracking of different types of datasets
+  description: tobac is a flexible frameork for cloud tracking of different types of datasets
   doc_url: http://tobac.readthedocs.io/
   dev_url: https://github.com/climate-processes/tobac
 
