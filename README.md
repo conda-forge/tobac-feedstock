@@ -151,5 +151,4 @@ Feedstock Maintainers
 
 * [@mheikenfeld](https://github.com/mheikenfeld/)
 * [@w-k-jones](https://github.com/w-k-jones/)
-* [@freemansw1](https://github.com/freemansw1/)
 
