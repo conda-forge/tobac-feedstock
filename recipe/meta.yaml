@@ -40,12 +40,15 @@ test:
   source_files:
     - tobac/tests/test_import.py
     - tobac/tests/test_sample_data.py
+    - tobac/tests/test_feature_detection.py
+    - tobac/tests/test_segmentation.py
+    - tobac/tests/test_tracking.py
   requires:
     - pytest
   commands:
     - pytest tobac/tests
 about:
-  home: http://github.com/simplejson/simplejson
+  home: https://github.com/tobac-project/tobac
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -53,9 +56,10 @@ about:
 
   description: tobac is a flexible frameork for cloud tracking of different types of datasets
   doc_url: http://tobac.readthedocs.io/
-  dev_url: https://github.com/climate-processes/tobac
+  dev_url: https://github.com/tobac-project/tobac
 
 extra:
   recipe-maintainers:
     - mheikenfeld
     - w-k-jones
+    - freemansw1
