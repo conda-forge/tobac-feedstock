@@ -1,7 +1,7 @@
 About tobac
 ===========
 
-Home: http://github.com/simplejson/simplejson
+Home: https://github.com/tobac-project/tobac
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tobac-feedstock
 
 Summary: Tracking and Object-Based Analysis of Clouds
 
-Development: https://github.com/climate-processes/tobac
+Development: https://github.com/tobac-project/tobac
 
 Documentation: http://tobac.readthedocs.io/
 
@@ -149,6 +149,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@freemansw1](https://github.com/freemansw1/)
 * [@mheikenfeld](https://github.com/mheikenfeld/)
 * [@w-k-jones](https://github.com/w-k-jones/)
 
