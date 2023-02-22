@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: e029e4495af67ee350a89dd256f483968251aee93cbc8b7dc9423d54cc40aa
+  sha256: e029e4495fdaf67ee350a89dd256f483968251aee93cbc8b7dc9423d54cc40aa
 
 build:
   noarch: python
