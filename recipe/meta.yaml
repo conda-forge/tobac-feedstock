@@ -24,12 +24,11 @@ requirements:
     - numpy
     - scipy
     - scikit-image
+    - scikit-learn
     - pandas
-    - pytables
     - matplotlib-base
     - iris
     - xarray
-    - cf-units
     - cartopy
     - trackpy
 
