@@ -1,11 +1,11 @@
-About tobac
-===========
+About tobac-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tobac-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tobac-project/tobac
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tobac-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tracking and Object-Based Analysis of Clouds
 
@@ -149,6 +149,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@JuliaKukulies](https://github.com/JuliaKukulies/)
 * [@freemansw1](https://github.com/freemansw1/)
 * [@mheikenfeld](https://github.com/mheikenfeld/)
 * [@w-k-jones](https://github.com/w-k-jones/)
