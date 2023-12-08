@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 7fd74a1b74625be11c7dd518033575299b477df6d54a501d72d404f1553e3ce6
+  sha256: 116eff002f0c66a543c11dfcd588146237522c74dc4185558a33a5abd9d11047
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -31,6 +31,7 @@ requirements:
     - xarray
     - cartopy
     - trackpy
+    - typing_extensions
 
 test:
   imports:
