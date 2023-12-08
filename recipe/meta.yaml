@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 116eff002f0c66a543c11dfcd588146237522c74dc4185558a33a5abd9d11047
+  sha256: daa6e9c8ebbf91e7cefbaae9fc6d35f4fe2d4bf73bae536caa30569f7dcbfbda
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
