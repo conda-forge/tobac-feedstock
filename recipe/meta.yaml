@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.5.3" %}
+{% set version = "1.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 967f86137b57afabf828e17b36ea8a66e834c352894a33e808e219bb9fcdde72
+  sha256: f59dc800c4595a6c8c2d4e4566ce8a8d9c720612010be3f10982b44e812e9550
 
 build:
   noarch: python
