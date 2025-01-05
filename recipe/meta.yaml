@@ -1,5 +1,6 @@
 {% set name = "tobac" %}
 {% set version = "1.5.5" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -16,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >={{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy
     - scipy
     - scikit-image
@@ -47,6 +48,7 @@ test:
     - tobac/tests/test_testing.py
     - tobac/tests/test_utils.py
   requires:
+    - python {{ python_min }}
     - pytest
   commands:
     - pytest tobac/tests
