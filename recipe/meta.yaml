@@ -42,7 +42,7 @@ test:
     - tobac/tests/test_import.py
     - tobac/tests/test_sample_data.py
     - tobac/tests/test_feature_detection.py
-    - tobac/tests/test_segmentation.py
+    - tobac/tests/segmentation_tests/test_segmentation.py
     - tobac/tests/test_tracking.py
     - tobac/tests/test_merge_split.py
     - tobac/tests/test_testing.py
