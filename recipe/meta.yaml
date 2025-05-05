@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.5.5" %}
+{% set version = "1.6.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: e4f891bb973c8ae3a2e84fc5fe23f4e84ed3de735bb90c0ffc331cea6f1d4dab
+  sha256: 9f46d0a898af6310a82d14fb9d0250a8d24ae3457266523f60a6ebca834c50a2
 
 build:
   noarch: python
@@ -42,7 +42,7 @@ test:
     - tobac/tests/test_import.py
     - tobac/tests/test_sample_data.py
     - tobac/tests/test_feature_detection.py
-    - tobac/tests/test_segmentation.py
+    - tobac/tests/segmentation_tests/test_segmentation.py
     - tobac/tests/test_tracking.py
     - tobac/tests/test_merge_split.py
     - tobac/tests/test_testing.py
