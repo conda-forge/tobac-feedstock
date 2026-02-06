@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.6.2" %}
+{% set version = "1.6.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: f69ad99bc5f9afff9bb9cd2d1d03f3450843422cca2312852e4895170a604c7c
+  sha256: ec018392e0305149d0bad5392cefe01a082205e466ab71aba30a46d62409820b
   patches:
     - fix_license.patch
 
