@@ -9,8 +9,6 @@ package:
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: ec018392e0305149d0bad5392cefe01a082205e466ab71aba30a46d62409820b
-  patches:
-    - fix_license.patch
 
 
 build:
