@@ -1,5 +1,5 @@
 {% set name = "tobac" %}
-{% set version = "1.6.3" %}
+{% set version = "1.6.4" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/tobac-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: ec018392e0305149d0bad5392cefe01a082205e466ab71aba30a46d62409820b
+  sha256: d52c65848202be76e85d9b36a1a701b65b880061fbaa8a8a41a5dd89d6ce1687
 
 
 build:
@@ -40,14 +40,7 @@ test:
     - tobac
     - tobac.testing
   source_files:
-    - tobac/tests/test_import.py
-    - tobac/tests/test_sample_data.py
-    - tobac/tests/test_feature_detection.py
-    - tobac/tests/segmentation_tests/test_segmentation.py
-    - tobac/tests/test_tracking.py
-    - tobac/tests/test_merge_split.py
-    - tobac/tests/test_testing.py
-    - tobac/tests/test_utils.py
+    - tobac/tests/**/*.py
   requires:
     - python {{ python_min }}
     - pytest
