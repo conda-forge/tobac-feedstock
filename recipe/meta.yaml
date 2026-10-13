@@ -40,14 +40,7 @@ test:
     - tobac
     - tobac.testing
   source_files:
-    - tobac/tests/test_import.py
-    - tobac/tests/test_sample_data.py
-    - tobac/tests/test_feature_detection.py
-    - tobac/tests/segmentation_tests/test_segmentation.py
-    - tobac/tests/test_tracking.py
-    - tobac/tests/test_merge_split.py
-    - tobac/tests/test_testing.py
-    - tobac/tests/test_utils.py
+    - tobac/tests/**/*.py
   requires:
     - python {{ python_min }}
     - pytest
